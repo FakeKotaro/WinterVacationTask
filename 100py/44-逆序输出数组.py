@@ -1,0 +1,6 @@
+li = list(map(int,input("请输入若干数组构成数组，数字间用空格隔开：").split()))
+print("您输入的数组如下：")
+print(li)
+li.reverse()
+print("逆序后：")
+print(li)
